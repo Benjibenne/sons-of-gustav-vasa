@@ -8,15 +8,13 @@
 body {
   font-family: lato, sans-serif;
   font-weight: 300;
-  background-color:none;
+  color: #3a3a3a;;
 }
 
-nav ul {
-    list-style: none;
-    text-align: center;
-    background-color: #cd7700;
-}
+/* header and */
 
-header >h1  {
-    position: absolute;
+h1, h2 {
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
 }
