@@ -49,12 +49,14 @@ nav a {
     text-decoration: none;
     color: #cd7700;
     display: block;
+    
 }
 
 nav a:hover {
     background-color:#cd7700 ;
     color: #4d3227;
     border-bottom: 1px solid #4d3227;
+    position: relative;
     
 }
 
