@@ -64,37 +64,43 @@ nav a:hover {
 /*introdcution images*/
 
 #erik-image {
-   height: 400px;
-   width: 72%;
-   background-image: url('./images/Erik_XIV_van_der_Meulen.JPG') no-repeat;
-   background-color: #3a3a3a;
+   height: 600px;
+   width: 100%;
+   background-image: url('./images/Erik\ XIV.jpg');
+   
 }
 
 #magnus-image {
-    height: 400px;
-    width: 120%;
-    background-image: url('./images/prins\ Magnus\ av\ sverige\ hertige\ av\ östergotland\ bilden\ sägs\ kanske\ är\ erik\ sture.jpg') no-repeat;
-    background-color: #3a3a3a;
+    height: 600px;
+    width: 165%;
+    background-image: url('./images/prins\ Magnus.jpg');
+    
     
 }
 
 #john-image {
-    height: 400px;
-    width: 110%;
-    background-image: url('./images/Johan_III\,\ skapat\ av\ Johan\ Baptista\ van\ Uther\ från\ wikimedia\ commons.jpg') no-repeat;
-    background-color: #3a3a3a;
+    height: 600px;
+    width: 100%;
+    background-image: url('./images/Johan_III\,\ från\ vikimedia\ commun.jpg');
+   
 }
 
 #charles-image {
-    height: 400px;
-    width: 110%;
-    background-image: url('./images/Karl\ IX\ från\ wikimedia\ commons.jpg') no-repeat;
-    background-color: #3a3a3a;
+    height: 600px;
+    width: 100%;
+    background-image: url('./images/Karl_IX\ från\ vikimedia\ commun.jpg');
+  
     
 }
 
 
 /*introduction headers*/
+
+#welcome {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 280%;
+}
 
 #introduction {
     height: 600px;
@@ -104,12 +110,14 @@ nav a:hover {
     padding-top: 30px;
     width: 33%;
     float: left;
+    margin: 50px;
 }
 
 #top-right {
     padding-top: 30px;
     width: 33%;
     float: right;
+    margin: 50px;
 }
 
 hr {
