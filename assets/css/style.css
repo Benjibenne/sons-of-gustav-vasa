@@ -61,3 +61,31 @@ nav a:hover {
 }
 
 /*section1*/
+
+#introduction {
+    height: 600px;
+}
+
+#top-left {
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+}
+
+#top-right {
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+}
+
+#bottom-left {
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+}
+
+#bottom-right {
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+}
