@@ -67,29 +67,44 @@ nav a:hover {
    height: 600px;
    width: 100%;
    background-image: url('./images/Erik\ XIV.jpg');
+   max-width: 600px;
+   background-position: left;
+   background-repeat: no-repeat;
+   background-size: cover;
    
 }
 
 #magnus-image {
     height: 600px;
-    width: 165%;
+    width: 100%;
     background-image: url('./images/prins\ Magnus.jpg');
-    
-    
+    max-width: 600px;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-column: 2;
 }
 
 #john-image {
     height: 600px;
     width: 100%;
     background-image: url('./images/Johan_III\,\ från\ vikimedia\ commun.jpg');
-   
+    max-width: 600px;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-column: 2;
 }
 
 #charles-image {
-    height: 600px;
+    height: 700px;
     width: 100%;
     background-image: url('./images/Karl_IX\ från\ vikimedia\ commun.jpg');
-  
+    max-width: 600px;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-column: 2;
     
 }
 
@@ -127,14 +142,10 @@ hr {
 }
 
 .bottom-left {
-    width: 60%;
+    width: 100%;
     float: left;
     line-height: 20px;
     clear: both;
     margin-bottom: 50px;
-
-}
-
-.bottom-right {
 
 }
