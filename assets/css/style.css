@@ -82,7 +82,7 @@ nav a:hover {
     background-position: left;
     background-repeat: no-repeat;
     background-size: cover;
-    grid-column: 2;
+    
 }
 
 #john-image {
@@ -93,7 +93,7 @@ nav a:hover {
     background-position: right;
     background-repeat: no-repeat;
     background-size: cover;
-    grid-column: 2;
+  
 }
 
 #charles-image {
@@ -104,7 +104,7 @@ nav a:hover {
     background-position: right;
     background-repeat: no-repeat;
     background-size: cover;
-    grid-column: 2;
+   
     
 }
 
