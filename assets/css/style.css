@@ -10,7 +10,10 @@ body {
   font-weight: 300;
   color: #3a3a3a;
   background-color: #ebc999;
+  height: 600px;
+  width: 100%;
 
+}
 }
 
 /* header and navigation links*/
@@ -22,11 +25,15 @@ body {
     text-align: center;
     color: #cd7700;
     background-color: #ebc999;
-
+    background-position-x: center;
 }
 
 #logofix {
     text-decoration: none;
+    text-align: center;
+    color: #cd7700;
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
 }
 
 nav ul {
@@ -61,10 +68,6 @@ nav a:hover {
 }
 
 
-/*introdcution images*/
-
-
-
 /*introduction headers*/
 
 #welcome {
@@ -73,13 +76,22 @@ nav a:hover {
     font-size: 280%;
 }
 
+
+/*introdcution images*/
+
+
 #container {
+    background-color: #3a3a3a;
     height: 600px;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     align-content: start;
     justify-content: space-around;
+}
+
+#container > p {
+ 
 }
 
 .erik-image {
@@ -89,6 +101,7 @@ nav a:hover {
     margin: 10px;
     text-align: center;
     
+    
 }
 
 .john-image {
@@ -97,6 +110,7 @@ nav a:hover {
     width: 450px;
     margin: 10px;
     text-align: center;
+    
 }
 
 .magnus-image {
@@ -105,6 +119,7 @@ nav a:hover {
     width: 450px;
     margin: 10px;
     text-align: center;
+    
 }
 
 .charles-image {
@@ -113,6 +128,7 @@ nav a:hover {
     width: 450px;
     margin: 10px;
     text-align: center;
+    
 }
 
 img {
