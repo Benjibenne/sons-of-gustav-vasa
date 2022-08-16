@@ -76,10 +76,26 @@ h1, h2 {
     border-bottom: 1px solid #4d3227;
 }
 
+/* welcome */
+
+#castle-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+}
+
+#castle-image {
+    height: 600px;
+    width: 100%;
+    background: url('./images/640px-Örebro_Slott_\(Orebro_Castle\,_Sweden\).jpg') no-repeat center center;
+    background-size: contain;
+    border: solid red;
+}
+
 
 /*introduction headers*/
 
-#welcome {
+#introduction {
     text-align: center;
     margin: 20px 0;
     font-size: 280%;
@@ -88,10 +104,15 @@ h1, h2 {
 
 /*introdcution images*/
 
+#introduction-outer{
+    height: 1000px;
+    width: 100%;
+    overflow: hidden;
+}
 
 #container {
     background-color: #3a3a3a;
-    height: 600px;
+    height: 800px;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -121,3 +142,22 @@ img {
 }
 
 /*Footer*/
+
+footer {
+    height: 150px;
+
+}
+
+.unordered-foot {
+    text-align: center;
+}
+
+.unordered-foot > li {
+    display: inline;
+}
+
+.unordered-foot i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+}
