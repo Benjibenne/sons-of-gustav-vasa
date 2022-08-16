@@ -8,13 +8,14 @@
 body {
   font-family: lato, sans-serif;
   font-weight: 300;
-  color: #3a3a3a;
+  color: #cd7700;
   background-color: #ebc999;
   height: 600px;
   width: 100%;
 
 }
-}
+
+
 
 /* header and navigation links*/
 
@@ -22,10 +23,17 @@ body {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-    text-align: center;
     color: #cd7700;
-    background-color: #ebc999;
+    text-align: center;
     background-position-x: center;
+    float: left;
+    font-size: 280%;
+}
+
+h1, h2 {
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
 }
 
 #logofix {
@@ -36,35 +44,36 @@ body {
     text-transform: uppercase;
 }
 
-nav ul {
-    text-align: center;
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
     text-size-adjust: 100%;
     background-color: #4d3227;
     list-style: none;
     
 }
 
-nav li {
-    font-size: 1.2em;
-    line-height: 40px;
-    height: 40px;
-    display: inline-block;
-    margin: 2.5%;
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
 }
 
-nav a {
+#menu a {
     text-decoration: none;
-    color: #cd7700;
-    display: block;
-    
+    color: inherit;
 }
 
-nav a:hover {
-    background-color:#cd7700 ;
-    color: #4d3227;
+#menu, #logo {
+    line-height: 75px;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #4d3227;  
+}
+
+.active {
     border-bottom: 1px solid #4d3227;
-    position: relative;
-    
 }
 
 
@@ -90,49 +99,25 @@ nav a:hover {
     justify-content: space-around;
 }
 
-#container > p {
- 
+.paragraph-bg {
+ margin: auto;
+ background-color: #4d3227;
 }
 
-.erik-image {
-    background-color: pink; 
+.image-text {
+    background-color: #4d3227; 
     height: 100px;
     width: 450px;
-    margin: 10px;
+    margin: auto;
     text-align: center;
-    
-    
-}
-
-.john-image {
-    background-color: pink; 
-    height: 100px;
-    width: 450px;
-    margin: 10px;
-    text-align: center;
-    
-}
-
-.magnus-image {
-    background-color: pink; 
-    height: 100px;
-    width: 450px;
-    margin: 10px;
-    text-align: center;
-    
-}
-
-.charles-image {
-    background-color: pink; 
-    height: 100px;
-    width: 450px;
-    margin: 10px;
-    text-align: center;
+    color: #cd7700;
     
 }
 
 img {
     height: 600px;
     width: 400px;
-    margin: 40px;
+    margin: auto;
 }
+
+/*Footer*/
