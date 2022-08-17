@@ -7,7 +7,7 @@
 }
 body {
   font-family: lato, sans-serif;
-  font-weight: 300;
+  font-weight: 600;
   color: #cd7700;
   background-color: #ebc999;
   height: 600px;
@@ -72,9 +72,6 @@ h1, h2 {
     border-bottom: 1px solid #4d3227;  
 }
 
-.active {
-    border-bottom: 1px solid #4d3227;
-}
 
 /* welcome */
 
@@ -112,7 +109,7 @@ h1, h2 {
 
 #container {
     background-color: #3a3a3a;
-    height: 800px;
+    height: 1000px;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -139,6 +136,27 @@ img {
     height: 600px;
     width: 400px;
     margin: auto;
+}
+
+/* section 3 positioning*/
+
+.text-p1 {
+    float: left;
+    font-size: 40px;
+    text-align: left;
+    letter-spacing: 20px;
+}
+
+.text-p2 {
+    float: right;
+    font-size: 40px;
+    text-align: right;
+    letter-spacing: 20px;
+}
+
+.padmag {
+    padding: 20px;
+    margin: 20px;
 }
 
 /*Footer*/
