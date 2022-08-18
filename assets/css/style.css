@@ -10,8 +10,31 @@ body {
   font-weight: 600;
   color: #cd7700;
   background-color: #ebc999;
-  height: 600px;
-  width: 100%;
+
+}
+
+.wrapper {
+    margin: 0px auto;
+    max-width: 1600px;
+    position: relative;
+}
+
+.h1-section-title {
+    text-align: center;
+
+}
+
+.flex-container {
+    display: flex;
+    
+}
+
+.h2-section-title {
+    
+
+}
+
+.brothers-section {
 
 }
 
@@ -102,6 +125,12 @@ h1, h2 {
 /*introdcution images*/
 
 #introduction-outer{
+    height: 1000px;
+    width: 100%;
+    overflow: hidden;
+}
+
+#events-conflicts {
     height: 1000px;
     width: 100%;
     overflow: hidden;
