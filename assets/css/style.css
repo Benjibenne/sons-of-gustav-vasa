@@ -26,17 +26,26 @@ header #page_title{
     letter-spacing: 4px;
     font-size: 2rem;
     color:#cd7700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.head-title {
+    background-color: #4d3227;
 }
 
 h1.section-title{
     text-align:center;
     font-size: 2.5rem;
     flex: 0 0 100%;
+    background-color: #4d3227;
 }
 
 h2.section-title{
     text-align:center;
     font-size: 1rem;
+    
 }
 
 #menu {
@@ -45,13 +54,16 @@ h2.section-title{
     text-size-adjust: 100%;
     background-color: #4d3227;
     list-style: none;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #menu li {
     float: right;
     list-style-type: none;
     margin-right: 30px;
+    
 }
 
 #menu a {
@@ -61,6 +73,7 @@ h2.section-title{
 
 #menu, #logo {
     line-height: 75px;
+    
 }
 
 #menu a:hover {
@@ -85,10 +98,6 @@ h2.section-title{
     margin-bottom:10px;
 }
 
-
-/*introduction headers*/
-
-
 /*section brothers*/
 
 .flex-container{
@@ -101,7 +110,7 @@ h2.section-title{
 
 
 .brothers-section {
-    background:#3a3a3a;
+    background-color: #ebc999;
 }
 .brothers-section .card{
     width: calc(25% - 1rem);
@@ -122,8 +131,8 @@ h2.section-title{
 }
 .brothers-section .paragraph-bg,
 .brothers-section h2{
-    background:#4d3227;
-    
+    background-color: #ebc999;
+    color: black;
 }
 .brothers-section .image_container{
     width: 100%;
@@ -151,6 +160,8 @@ h2.section-title{
     list-style:none;
 }
 
+/* section 3 end*/
+
 /*Footer*/
 
 footer {
@@ -171,3 +182,8 @@ footer {
     margin: 1%;
     padding: 5%;
 }
+
+/*Footer end*/
+
+/*@media responsiveness*/
+
