@@ -15,7 +15,7 @@ body{
 		
 .wrapper{
     margin:0px auto;
-    max-width:1600px;
+    max-width:1280px;
     position:relative;
 }
 
@@ -49,68 +49,60 @@ h2.section-title{
 }
 
 #menu {
-    font-size: 110%;
+    font-size: 1.5rem;
     letter-spacing: 4px;
-    text-size-adjust: 100%;
-    background-color: #4d3227;
     list-style: none;
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 
 #menu li {
-    float: right;
     list-style-type: none;
-    margin-right: 30px;
-    
+    display:inline-flex;
+	margin:10px;
 }
 
 #menu a {
     text-decoration: none;
     color: inherit;
-}
-
-#menu, #logo {
-    line-height: 75px;
-    
+	border-bottom: 1px solid transparent;
 }
 
 #menu a:hover {
-    border-bottom: 1px solid #4d3227;  
+    border-bottom-color: red;  
 }
 
 /* end of navigation and header*/
 
 /* welcome */
-
+.t-center{
+	text-align:center;
+}
 #castle-outer {
-    height: 600px;
     width: 100%;
     overflow: hidden;
 }
 
-#castle-image {
-    height: 600px;
-    width: 100%;
-    background: url('./images/640px-Örebro_Slott_\(Orebro_Castle\,_Sweden\).jpg') no-repeat center center;
-    background-size: contain;
-    margin-bottom:10px;
+.image_container img {
+    max-height: 100%;
+    object-fit: contain;
+    max-width: 100%;
 }
 
+.image_container.t-center{
+	padding: 10px 0px 5px 0px;
+}
 /*section brothers*/
 
 .flex-container{
     display: flex;
     flex-wrap: wrap;
 }
-.flex-row{
-    flex-direction: row;
-}
 
 
 .brothers-section {
     background-color: #ebc999;
+	flex-direction:row;
 }
 .brothers-section .card{
     width: calc(25% - 1rem);
@@ -125,7 +117,7 @@ h2.section-title{
 .brother-title {
     padding: 10px 20px;
     margin-bottom: -8px;
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-align: center;
     min-height: 131px;
 }
@@ -136,12 +128,10 @@ h2.section-title{
 }
 .brothers-section .image_container{
     width: 100%;
-    height: 526px;
+	height: 500px;
 }
 .brothers-section .image_container img {
     width: 100%;
-    max-height: 100%;
-    object-fit: contain;
 }
 
 /* section brothers ending*/
@@ -149,11 +139,12 @@ h2.section-title{
 /* section 3*/
 
 .events-conclusion{
-    width: 900px;
+    width: 100%;
     margin: 0 auto;
 }
 .events-conclusion .card{
     color:black;
+	padding:0px 1rem;
 }
 
 .unordered-list{
@@ -187,8 +178,55 @@ footer {
 
 /*@media responsiveness*/
 
-@media screen and (max-width:950px) { 
 
+/* @media screen and (min-width:1200px ) {  */
+	/* .brothers-section{ */
+		/* background-color :red; */
+	/* } */
+/* } */
 
+@media screen  and (min-width:900px) and (max-width:1200px) { 
+
+	
+	.brothers-section .image_container{
+		height: 280px;
+	}
 }
 
+
+@media screen  and (max-width:900px)  { 
+
+
+	.brothers-section .card{
+		width:50%;
+		margin-right:0rem;
+	}
+}
+
+
+@media screen  and (max-width:650px)  { 
+	header #page_title{
+		font-size: 1rem;
+	}
+	
+	.brother-title{
+		min-height:0px;
+	}
+
+    .brothers-section .image_container{
+        height:auto;
+    }
+
+	.brothers-section .card{
+		width:100%;
+		margin-right:0rem;
+		margin-bottom:1rem;
+	}
+	
+	#menu {
+		font-size: 1rem;
+	   
+	}
+}
+
+/* @media responsiveness ends*/
