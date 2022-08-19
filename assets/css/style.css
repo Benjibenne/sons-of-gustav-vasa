@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     border: none;
+    margin-bottom: 15px;
 }
 
 body{
@@ -35,14 +36,14 @@ header #page_title{
     background-color: #4d3227;
 }
 
-h1.section-title{
+h2.section-title{
     text-align:center;
     font-size: 2.5rem;
     flex: 0 0 100%;
     background-color: #4d3227;
 }
 
-h2.section-title{
+h3.section-title{
     text-align:center;
     font-size: 1rem;
     
@@ -122,7 +123,7 @@ h2.section-title{
     min-height: 131px;
 }
 .brothers-section .paragraph-bg,
-.brothers-section h2{
+.brothers-section h3{
     background-color: #ebc999;
     color: black;
 }
@@ -169,7 +170,7 @@ footer {
 }
 
 .unordered-list i {
-    font-size: 160%;
+    font-size: 280%;
     margin: 1%;
     padding: 5%;
 }
@@ -197,7 +198,7 @@ footer {
 	}
 }
 
- /* */
+ /* reduce text size of title and make img height increase*/
 @media screen  and (max-width:650px)  { 
 	header #page_title{
 		font-size: 1rem;
