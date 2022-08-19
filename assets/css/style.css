@@ -65,11 +65,11 @@ h2.section-title{
 #menu a {
     text-decoration: none;
     color: inherit;
-	border-bottom: 1px solid transparent;
+	border-bottom: 2px solid transparent;
 }
 
 #menu a:hover {
-    border-bottom-color: red;  
+    border-bottom-color: #cd7700;  
 }
 
 /* end of navigation and header*/
@@ -178,12 +178,6 @@ footer {
 
 /*@media responsiveness*/
 
-
-/* @media screen and (min-width:1200px ) {  */
-	/* .brothers-section{ */
-		/* background-color :red; */
-	/* } */
-/* } */
 
 @media screen  and (min-width:900px) and (max-width:1200px) { 
 
