@@ -61,7 +61,7 @@ and will and can summarise marginable good amount of intel about the historical 
 ## Colour Scheme:
 - As the general history websites always follows an bland red and white colour schemes. 
 - I had an motivation to find maybe an unique color scheme for my history website or atleast outside of norm of history websites.
-- So followed these colours as they werent abrasively to grand or gandy and felt well suited to my taste and hopefully user friendly.
+- So followed these colours as they werent abrasively to grand or gaunt and felt well suited to my taste and hopefully user friendly.
 - Orange-#4d3227, brown-#ebc999, tan-#cd7700.
 
 
