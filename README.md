@@ -78,7 +78,7 @@ and as an historic website feelt more necesary to have the best suited images fi
 this site contains common features of navigation bar and footer which will create an welcoming and well responsive website for the user.
 And with an to top button that makes the return of home page more easily intented on how to use and easily seen.
 
-Existing Features
+### Existing Features
 
 Navigation bar and home
 features title and navigation bar thats when hover over gets an 
