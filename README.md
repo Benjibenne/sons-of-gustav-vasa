@@ -86,7 +86,7 @@ features title and navigation bar thats when hover over change color. Which also
 ![Header and Navigation](https://raw.githubusercontent.com/Benjibenne/sons-of-gustav-vasa/main/docs/header-navigation-gustav.JPG)
 
 #### Welcome
-![Picture of Orebro castle with title and text](https://raw.githubusercontent.com/Benjibenne/sons-of-gustav-vasa/main/docswelcome%20section%20with%20picture%20and%20with%20textJPG)
+![Picture of Orebro castle with title and text](https://raw.githubusercontent.com/Benjibenne/sons-of-gustav-vasa/main/docs/welcome%20section%20with%20picture%20and%20with%20text.JPG)
 
 #### Introduction to the brothers
 ![Section with images of brothers](https://raw.githubusercontent.com/Benjibenne/sons-of-gustav-vasa/main/docs/introduction%20section%20with%20images.JPG)
