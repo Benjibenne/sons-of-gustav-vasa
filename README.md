@@ -140,11 +140,11 @@ these test where done from -
 
 #### W3C HTML Validatior
 
-[W3C HTML Validation](https://raw.githubusercontent.com/Benjibenne/sons-of-gustav-vasa/main/docs/html%20validator.JPG)
+![W3C HTML Validation](https://raw.githubusercontent.com/Benjibenne/sons-of-gustav-vasa/main/docs/html%20validator.JPG)
 
 ### W3C CSS Validatior
 
-[W3C CSS Validation]()
+![W3C CSS Validation](https://raw.githubusercontent.com/Benjibenne/sons-of-gustav-vasa/main/docs/css%20validator%20score.JPG)
 
 ### Lighthouse
 
