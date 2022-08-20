@@ -74,7 +74,7 @@ the images used in this project are from [view wikimedia commons](https://common
 was of specific historical figures like Erik XIV, John III, prince Magnus duke of Ostergotland, and Charles IX.
 and as an historic website feelt more necesary to have the best suited images fitting for users to have an image of the people they are reading about.
 
-Features:
+## Features:
 this site contains common features of navigation bar and footer which will create an welcoming and well responsive website for the user.
 And with an to top button that makes the return of home page more easily intented on how to use and easily seen.
 
