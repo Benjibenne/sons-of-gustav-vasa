@@ -44,8 +44,7 @@ and will and can summarise marginable good amount of intel about the historical 
 [Aknowlegement](#aknowlegement)
 
 ## Key Project Goals:
-- To showcase an history intented one page website thats is smooth and easy to navigate and draw the user attention to by using the color schemes. 
-- And titles. 
+- To showcase an history intented one page website thats is smooth and easy to navigate and draw the user attention to by using the color schemes and titles. 
 
 ## Brief:
 - This website should bring in more attraction in grim but fascinating stories and historical events about Swedens history and conflict.
