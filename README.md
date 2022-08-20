@@ -129,16 +129,30 @@ and will and can summarise marginable good amount of intel about the historical 
 
 
 ## Testing
-- 
+The Sons of Gustav Vasa homepage has been tested by the following means.
+
+### Code Validation
+
+#### W3C HTML Validatior
+
+### W3C CSS Validatior
+
+### Lighthouse
+
+[Lighthouse Desktop score]()
+
+[Lighthouse Mobile score]()
+
 
 ## Deployment:
 The site was deployed to GitHub pages.
 
 ### Deploy to Github pages
-1
-2
-3
-4
+-
+-
+-
+-
+-
 ![]()
 
 ## Credits:
