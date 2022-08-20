@@ -148,9 +148,9 @@ these test where done from -
 
 ### Lighthouse
 
-[Lighthouse Desktop score]()
+![Lighthouse Desktop score](https://raw.githubusercontent.com/Benjibenne/sons-of-gustav-vasa/main/docs/lighthouse%20testing%20score%20desktop.JPG)
 
-[Lighthouse Mobile score]()
+![Lighthouse Mobile score](https://raw.githubusercontent.com/Benjibenne/sons-of-gustav-vasa/main/docs/lighthouse%20testing%20score%20mobil.JPG)
 
 
 ## Deployment:
