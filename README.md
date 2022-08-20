@@ -107,10 +107,12 @@ and will and can summarise marginable good amount of intel about the historical 
 
 #### - To Top Button 
 - An button to top option to quickly come back smoothly to home page.
-- Which is also positioned right side bottom so it doesnt cover the content for the user and aviable to be noticed by the color scheme of it.
+- Which is also positioned right side bottom so it doesnt cover the content for the user.
+- And aviable to be noticed by the color scheme of the button and arrow.
+
 ![Button to top](https://raw.githubusercontent.com/Benjibenne/sons-of-gustav-vasa/main/docs/to%20top%20button%20right%20bottom.JPG)
 
-##### Future Features
+#### Future Features
 - Making the to top button more hidden from ealier sections when not at bottom.
 - Possible more option not comes to mind atm.
 
