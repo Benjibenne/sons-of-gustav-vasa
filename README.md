@@ -81,25 +81,39 @@ and will and can summarise marginable good amount of intel about the historical 
 ### Existing Features
 
 #### - Navigation bar and home
-- features title and navigation bar thats when hover over change color. Which also guides the user to desired sections of the website.
+- Features title and navigation bar thats when hover over change color. Which also guides the user to desired sections of the website.
 ![Header and Navigation](https://raw.githubusercontent.com/Benjibenne/sons-of-gustav-vasa/main/docs/header-navigation-gustav.JPG)
 
 #### - Welcome
+- Features welcome image of castle Orebro that you can get a head introduction of content of website.
 ![Picture of Orebro castle with title and text](https://raw.githubusercontent.com/Benjibenne/sons-of-gustav-vasa/main/docs/welcome%20section%20with%20picture%20and%20with%20text.JPG)
 
 #### - Introduction to the brothers
+- Images of the four brothers with name and reign period above the image and introduction title.
 ![Section with images of brothers](https://raw.githubusercontent.com/Benjibenne/sons-of-gustav-vasa/main/docs/introduction%20section%20with%20images.JPG)
 
+- Text content about the brothers which are link to specified images for example Erik XIV image has Erik XIV summary paragraph text below it.
 ![Section with text about brothers](https://raw.githubusercontent.com/Benjibenne/sons-of-gustav-vasa/main/docs/responsive%20paragraph%20text%20that%20stick%20to%20the%20specific%20image.JPG)
 
 #### - Events
+- Text content of title and two paragraph texts about times of Erik XIV fall. 
+- And another paragraph seperate to the two first one and has content text about Charles IX rise of power and infighting with John.
 ![Section with text](https://raw.githubusercontent.com/Benjibenne/sons-of-gustav-vasa/main/docs/Events%20section%20with%20text%20and%20h3%20and%20h2.JPG)
 
 #### - Footer 
+- A footer wich holds social media links to facebook, instagram, twitter and youtube.
+- Which also got an hover style that change the color from brown to orange by mousing over.
 ![Footer with social media links](https://raw.githubusercontent.com/Benjibenne/sons-of-gustav-vasa/main/docs/social%20media%20footer.JPG)
 
 #### - To Top Button 
+- An button to top option to quickly come back smoothly to home page.
+- Which is also positioned right side bottom so it doesnt cover the content for the user and aviable to be noticed by the color scheme of it.
 ![Button to top](https://raw.githubusercontent.com/Benjibenne/sons-of-gustav-vasa/main/docs/to%20top%20button%20right%20bottom.JPG)
+
+##### Future Features
+- Making the to top button more hidden from ealier sections when not at bottom.
+- Possible more option not comes to mind atm.
+
 
 ## Technologies Used:
 - [Font Awesome](https://fontawesome.com/?utm_source=v4_homepage&utm_medium=display&utm_campaign=fa5_released&utm_content=banner) - Website where I used free Icons.
@@ -111,7 +125,9 @@ and will and can summarise marginable good amount of intel about the historical 
 - [Github](https://github.com/) - Used to deploy the website.
 - [W3 Schools](https://www.w3schools.com/html/html_css.asp) - Search for guides and codes to procced and experiment.
 
+
 ## Testing
+- 
 
 ## Deployment:
 The site was deployed to GitHub pages.
