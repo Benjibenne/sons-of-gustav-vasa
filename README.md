@@ -132,10 +132,19 @@ and will and can summarise marginable good amount of intel about the historical 
 The Sons of Gustav Vasa homepage has been tested by the following means.
 
 ### Code Validation
+these test where done from -
+
+[view HTML Validation site](https://validator.w3.org/)
+
+[view CSS validation site](https://jigsaw.w3.org/css-validator/)
 
 #### W3C HTML Validatior
 
+[W3C HTML Validation](https://raw.githubusercontent.com/Benjibenne/sons-of-gustav-vasa/main/docs/html%20validator.JPG)
+
 ### W3C CSS Validatior
+
+[W3C CSS Validation]()
 
 ### Lighthouse
 
