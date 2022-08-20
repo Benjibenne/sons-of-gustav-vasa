@@ -83,7 +83,7 @@ and will and can summarise marginable good amount of intel about the historical 
 
 #### Navigation bar and home
 features title and navigation bar thats when hover over change color. 
-![Header and Navigation]()
+![Header and Navigation](https://raw.githubusercontent.com/Benjibenne/sons-of-gustav-vasa/main/docs/header-navigation-gustav.JPG)
 
 #### Welcome
 ![Picture of Orebro castle and h2 title and text]()
