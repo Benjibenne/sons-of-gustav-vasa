@@ -81,20 +81,24 @@ and will and can summarise marginable good amount of intel about the historical 
 
 ### Existing Features
 
-Navigation bar and home
-features title and navigation bar thats when hover over gets an 
+#### Navigation bar and home
+features title and navigation bar thats when hover over change color. 
+![Header and Navigation]()
 
+#### Welcome
+![Picture of Orebro castle and h2 title and text]()
 
-Orebro castle
+#### Introduction to the brothers
+![]()
 
-Introduction to the brothers
+#### Events
+![]()
 
-Events
-
-Footer 
+#### Footer 
+![]()
 
 ## Technologies Used:
-- [Font Awesome](https://fontawesome.com/?utm_source=v4_homepage&utm_medium=display&utm_campaign=fa5_released&utm_content=banner) - Website where I used free Icons 
+- [Font Awesome](https://fontawesome.com/?utm_source=v4_homepage&utm_medium=display&utm_campaign=fa5_released&utm_content=banner) - Website where I used free Icons.
 - [CSS Validation Service](https://jigsaw.w3.org/css-validator/) - Testing site for Css to find faults and issues to correct.
 - [Markup Validation Service](https://validator.w3.org/) - Testing site for Html program to find any faults or issues.
 - [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) - An guide and summary of flexbox codes.
