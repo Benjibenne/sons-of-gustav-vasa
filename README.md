@@ -9,7 +9,7 @@ and will and can summarise marginable good amount of intel about the historical 
 [view website here](https://benjibenne.github.io/sons-of-gustav-vasa/)
 
 ## Repository:
-(https://github.com/Benjibenne/sons-of-gustav-vasa)
+[view repository here](https://github.com/Benjibenne/sons-of-gustav-vasa)
 
 ## Contents:
 
