@@ -181,6 +181,8 @@ The site was deployed to GitHub pages.
 
 ## Credits:
 
+### Content:
+- Readme was inspired by [TashaTJ](https://github.com/TashaTJ/pawsome-portraits-v4#credits) and sample project overview.
 
 ### Media:
 
