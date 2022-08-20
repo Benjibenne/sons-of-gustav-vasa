@@ -152,6 +152,15 @@ these test where done from -
 
 ![Lighthouse Mobile score](https://raw.githubusercontent.com/Benjibenne/sons-of-gustav-vasa/main/docs/lighthouse%20testing%20score%20mobil.JPG)
 
+### Testing bugs
+
+- Got erros in html validator when I didnt have enough headers in one section.
+- And got erros of there where unclosed tags in the body.
+
+### fixing bugs 
+
+- fixed section bugs with adding a header with title Welcome and text with content of this website.
+- fixed last and other following bugs with deleting shown stray tags with no closing tag.
 
 ## Deployment:
 The site was deployed to GitHub pages.
