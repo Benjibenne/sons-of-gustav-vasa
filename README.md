@@ -94,22 +94,26 @@ Events
 Footer 
 
 ## Technologies Used:
-- []()
-- []()
-- []()
-- []()
-- []()
-- []()
-- []()
-- []()
-- []()
-- []()
-- []()
-- []()
+- [Font Awesome](https://fontawesome.com/?utm_source=v4_homepage&utm_medium=display&utm_campaign=fa5_released&utm_content=banner) - Website where I used free Icons 
+- [CSS Validation Service](https://jigsaw.w3.org/css-validator/) - Testing site for Css to find faults and issues to correct.
+- [Markup Validation Service](https://validator.w3.org/) - Testing site for Html program to find any faults or issues.
+- [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) - An guide and summary of flexbox codes.
+- [Google Fonts](https://fonts.google.com/) - Fonts found and used in website imported from here.
+- [Gitpod](https://www.gitpod.io/) - Used to create and host the website.
+- [Github](https://github.com/) - Used to deploy the website.
+- [W3 Schools](https://www.w3schools.com/html/html_css.asp) - Search for guides and codes to procced and experiment.
 
 ## Testing
 
 ## Deployment:
+The site was deployed to GitHub pages.
+
+### Deploy to Github pages
+1
+2
+3
+4
+![]()
 
 ## Credits:
 
