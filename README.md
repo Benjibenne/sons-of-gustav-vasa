@@ -11,7 +11,7 @@ and will and can summarise marginable good amount of intel about the historical 
 ## Repository:
 (https://github.com/Benjibenne/sons-of-gustav-vasa)
 
-##Contents:
+## Contents:
 
 Key Project Goals
 
