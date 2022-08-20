@@ -181,8 +181,17 @@ The site was deployed to GitHub pages.
 
 ## Credits:
 
-## Media:
 
-## Code:
+### Media:
 
-## Aknowlegement:
+- All pictures where taken from [Wikimedia Commons](https://commons.wikimedia.org/wiki/Main_Page) which is in use cause of public service.
+
+
+### Code:
+
+- Used the to top button code from [Scroll top button - back to top Using Only HTML & CSS](https://www.youtube.com/watch?v=Vef9bxTilCU)
+- Used the footer code from love running with variation to size and responsiveness and color.
+
+### Aknowlegement:
+
+- massive gratitude to the countless amount of help and assistance from overflow slack, [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/), my mentor Harry for his guidance and calming reassurance, and many other friends who took their time and support to assist me and correct my mistakes. 
