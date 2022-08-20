@@ -166,12 +166,18 @@ these test where done from -
 The site was deployed to GitHub pages.
 
 ### Deploy to Github pages
--
--
--
--
--
-![]()
+
+ 1 Navigate to settings and click it. 
+
+ 2 Go to the page bar in left side corner below evironment and above security.
+ 
+ 3 Click on the bar at branch and choice main or master depending on word.
+
+ 4 Last step click save and within few seconds or min you page will become live.
+
+ 5 If the markers in the picture isnt clear enough I suggest you click on the image to get it enlarge so they become more defined to see the steps clearer.
+
+![deployment image](https://raw.githubusercontent.com/Benjibenne/sons-of-gustav-vasa/main/docs/github%20deployment%20steps.JPG)
 
 ## Credits:
 
