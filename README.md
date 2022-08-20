@@ -56,7 +56,7 @@ and will and can summarise marginable good amount of intel about the historical 
 
 ### Site Structure:
 - Sons of Gustav vasa is a 1 page website where all the text and content can be found and lead to by navigation or by scrolling down the page.
-- and with an footer with social media connections with icons suited for the links.
+- And with an footer with social media connections with icons suited for the links.
 
 ## Colour Scheme:
 - As the general history websites always follows an bland red and white colour schemes. 
@@ -70,12 +70,12 @@ and will and can summarise marginable good amount of intel about the historical 
 - Used in every challenge prio short projects so didnt feel need to experiment or try out new texts fonts, until I am more experience and have an preference I grown to prefer.
 
 ## Imagery:
-- the images used in this project are from [view wikimedia commons](https://commons.wikimedia.org/wiki/Main_Page), as the images I wanted and feelt needed to use.
-- was of specific historical figures like Erik XIV, John III, prince Magnus duke of Ostergotland, and Charles IX.
-- and as an historic website feelt more necesary to have the best suited images fitting for users to have an image of the people they are reading about.
+- The images used in this project are from [view wikimedia commons](https://commons.wikimedia.org/wiki/Main_Page), as the images I wanted and feelt needed to use.
+- Was of specific historical figures like Erik XIV, John III, prince Magnus duke of Ostergotland, and Charles IX.
+- And as an historic website feelt more necesary to have the best suited images fitting for users to have an image of the people they are reading about.
 
 ## Features:
-- this site contains common features of navigation bar and footer which will create an welcoming and well responsive website for the user.
+- This site contains common features of navigation bar and footer which will create an welcoming and well responsive website for the user.
 - And with an to top button that makes the return of home page more easily intented on how to use and easily seen.
 
 ### Existing Features
@@ -132,7 +132,7 @@ and will and can summarise marginable good amount of intel about the historical 
 The Sons of Gustav Vasa homepage has been tested by the following means.
 
 ### Code Validation
-these test where done from -
+These test where done from -
 
 [view HTML Validation site](https://validator.w3.org/)
 
@@ -159,8 +159,8 @@ these test where done from -
 
 ### fixing bugs 
 
-- fixed section bugs with adding a header with title Welcome and text with content of this website.
-- fixed last and other following bugs with deleting shown stray tags with no closing tag.
+- Fixed section bugs with adding a header with title Welcome and text with content of this website.
+- Fixed last and other following bugs with deleting shown stray tags with no closing tag.
 
 ## Deployment:
 The site was deployed to GitHub pages.
@@ -194,4 +194,4 @@ The site was deployed to GitHub pages.
 
 ### Aknowlegement:
 
-- massive gratitude to the countless amount of help and assistance from overflow slack, [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/), my mentor Harry for his guidance and calming reassurance, and many other friends who took their time and support to assist me and correct my mistakes. 
+- Massive gratitude to the countless amount of help and assistance from overflow slack, [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/), my mentor Harry for his guidance and calming reassurance, and many other friends who took their time and support to assist me and correct my mistakes. 
