@@ -80,25 +80,25 @@ and will and can summarise marginable good amount of intel about the historical 
 
 ### Existing Features
 
-#### Navigation bar and home
-features title and navigation bar thats when hover over change color. Which also guides the user to desired sections of the website.
+#### - Navigation bar and home
+- features title and navigation bar thats when hover over change color. Which also guides the user to desired sections of the website.
 ![Header and Navigation](https://raw.githubusercontent.com/Benjibenne/sons-of-gustav-vasa/main/docs/header-navigation-gustav.JPG)
 
-#### Welcome
+#### - Welcome
 ![Picture of Orebro castle with title and text](https://raw.githubusercontent.com/Benjibenne/sons-of-gustav-vasa/main/docs/welcome%20section%20with%20picture%20and%20with%20text.JPG)
 
-#### Introduction to the brothers
+#### - Introduction to the brothers
 ![Section with images of brothers](https://raw.githubusercontent.com/Benjibenne/sons-of-gustav-vasa/main/docs/introduction%20section%20with%20images.JPG)
 
 ![Section with text about brothers](https://raw.githubusercontent.com/Benjibenne/sons-of-gustav-vasa/main/docs/responsive%20paragraph%20text%20that%20stick%20to%20the%20specific%20image.JPG)
 
-#### Events
+#### - Events
 ![Section with text](https://raw.githubusercontent.com/Benjibenne/sons-of-gustav-vasa/main/docs/Events%20section%20with%20text%20and%20h3%20and%20h2.JPG)
 
-#### Footer 
+#### - Footer 
 ![Footer with social media links](https://raw.githubusercontent.com/Benjibenne/sons-of-gustav-vasa/main/docs/social%20media%20footer.JPG)
 
-#### To Top Button 
+#### - To Top Button 
 ![Button to top](https://raw.githubusercontent.com/Benjibenne/sons-of-gustav-vasa/main/docs/to%20top%20button%20right%20bottom.JPG)
 
 ## Technologies Used:
