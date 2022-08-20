@@ -127,12 +127,18 @@ h3.section-title{
     padding:5px 20px;
 }
 
+.paragraph-bg {
+    color: black;
+
+}
+
 .brother-title {
     padding: 10px 20px;
     margin-bottom: -8px;
     font-size: 1.5rem;
     text-align: center;
-    min-height: 131px;
+    min-height: 53px;
+    color: black;
 }
 .brothers-section .paragraph-bg,
 .brothers-section h3{
@@ -187,6 +193,17 @@ footer {
     padding: 5%;
 }
 
+.fa-brands{
+    font-family: "Font Awesome 6 Brands";
+    font-weight: 400;
+    color: brown;
+}
+
+.fa-brands:hover {
+    font-family: "Font Awesome 6 Brands";
+    font-weight: 400;
+    color: orange;
+}
 /*Footer end*/
 
 /* to top button start*/
@@ -198,7 +215,7 @@ footer {
     color: #4d3227;
     background-color: #cd7700;
     bottom: -2px;
-    left: 12px;
+    right: 12px;
     font-size: 30px;
 
     border-radius: 50%;
@@ -240,6 +257,7 @@ footer {
 	
 	.brother-title{
 		min-height:0px;
+        color:black
 	}
 
     .brothers-section .image_container{
@@ -255,7 +273,27 @@ footer {
 	#menu {
 		font-size: 1rem;
 	   
-	}
+
+    }
+
+    @media screen  and (min-width:260px) and (max-width:400px) {
+        .unordered-list i {
+            font-size: 200%;
+            margin: 1%;
+            padding: 5%;
+        }
+    }
+
+
+    @media screen  and (min-width:200px) and (max-width:260px) {
+        .unordered-list i {
+            font-size: 150%;
+            margin: 1%;
+            padding: 5%;
+        }
+    }
+
 }
+
 
 /* @media responsiveness ends*/
