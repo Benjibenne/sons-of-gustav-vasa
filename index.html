@@ -1,301 +1,172 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap');
-
-html {
-    scroll-behavior: smooth;
-}
-
-* {
-    margin: 0;
-    padding: 0;
-    border: none;
-    margin-bottom: 15px;
-    text-align: center;
-}
-
-body{
-    background:#ebc999;
-    font-family: Oswald, sans-serif;
-    margin:0px ;
-    color:#cd7700;
-}
-		
-.wrapper{
-    margin:0px auto;
-    max-width:1280px;
-    position:relative;
-}
-
-/* header and navigation*/
-
-header #page_title{
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    font-size: 2rem;
-    color:#cd7700;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.head-title {
-    background-color: #4d3227;
-}
-
-h2.section-title{
-    text-align:center;
-    font-size: 2.5rem;
-    flex: 0 0 100%;
-    background-color: #4d3227;
-}
-
-h3.section-title{
-    text-align:center;
-    font-size: 1rem;
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Conflicts between brothers for succesion to be king and continued fights after kingship">
+    <meta name="keywords" content="Brothers, Gustav Vasa, Conflict, Eric, Magnus, Charles, John, Sweden"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" 
+    integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     
-}
+    
+    <title>Sons of Gustav Vasa</title>
+</head>
+<body>
+    <div class="wrapper">
+        <!-- Header -->
+		<header class="head-title">
+			<a id="page_title" href="index.html">
+				<h1>Sons of Gustav Vasa</h1>
+			</a>
+            <nav id="menu">
+                <ul >
+                    <li><a href="#page_title">Home</a></li>
+                    <li><a href="#brothers-section">Introduction</a></li>
+                    <li><a href="#events-section">Events</a></li>
+                    <li><a href="#social-media">Social media</a></li>
+                    
+                    
+                </ul>
+            </nav>
+        </header>
+            <!-- Header and navigation end-->
 
-#menu {
-    font-size: 1.5rem;
-    letter-spacing: 4px;
-    list-style: none;
-    display: flex;
-    justify-content: center;
-}
-
-#menu li {
-    list-style-type: none;
-    display:inline-flex;
-	margin:10px;
-}
-
-#menu a {
-    text-decoration: none;
-    color: inherit;
-	border-bottom: 2px solid transparent;
-}
-
-#menu a:hover {
-    border-bottom-color: #cd7700;  
-}
-
-/* end of navigation and header*/
-
-/* welcome */
-.t-center{
-	text-align:center;
-}
-#castle-outer {
-    width: 100%;
-    overflow: hidden;
-}
-
-.image_container img {
-    max-height: 100%;
-    object-fit: contain;
-    max-width: 100%;
-}
-
-.image_container.t-center{
-	padding: 10px 0px 5px 0px;
-}
-/*section brothers*/
-
-.flex-container{
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.orebro_content {
-    padding: 10px 20px;
-    margin-bottom: -8px;
-    font-size: 1.5rem;
-    text-align: center;
-    min-height: 44px;
-
-}
-
-.brothers-section {
-    background-color: #ebc999;
-	flex-direction:row;
-}
-.brothers-section .card{
-    width: calc(25% - 1rem);
-    margin-right:1rem;
-}
-
-.brothers-section .paragraph-bg{
-    font-size:1rem;
-    padding:5px 20px;
-}
-
-.paragraph-bg {
-    color: black;
-    text-align: center;
-
-}
-
-.brother-title {
-    padding: 10px 20px;
-    margin-bottom: -8px;
-    font-size: 1.5rem;
-    text-align: center;
-    min-height: 53px;
-    color: black;
-}
-.brothers-section .paragraph-bg,
-.brothers-section h3{
-    background-color: #ebc999;
-    color: black;
-}
-.brothers-section .image_container{
-    width: 100%;
-	height: 500px;
-}
-.brothers-section .image_container img {
-    width: 100%;
-}
-
-/* section brothers ending*/
-
-/* section 3*/
-
-.events-conclusion{
-    width: 100%;
-    margin: 0 auto;
-}
-.events-conclusion .card{
-    color:black;
-	padding:0px 1rem;
-}
-
-.unordered-list{
-    list-style:none;
-}
-
-/* section 3 end*/
-
-/*Footer*/
-
-footer {
-    height: 150px;
-
-}
-
-.unordered-list {
-    text-align: center;
-}
-
-.unordered-list > li {
-    display: inline;
-}
-
-.unordered-list i {
-    font-size: 280%;
-    margin: 1%;
-    padding: 5%;
-}
-
-.fa-brands{
-    font-family: "Font Awesome 6 Brands";
-    font-weight: 400;
-    color: brown;
-}
-
-.fa-brands:hover {
-    font-family: "Font Awesome 6 Brands";
-    font-weight: 400;
-    color: orange;
-}
-/*Footer end*/
-
-/* to top button start*/
-
- .button_top {
-    position: fixed;
-    height: 51px;
-    width: 55px;
-    color: #4d3227;
-    background-color: #cd7700;
-    bottom: -2px;
-    right: 12px;
-    font-size: 30px;
-
-    border-radius: 50%;
-    text-decoration: none;
-    text-align: center; line-height: 50px;
-
-
- } 
-
-/* to top button ending*/
-
-
-/*@media responsiveness*/
-
-
-@media screen  and (min-width:900px) and (max-width:1200px) { 
-
-	
-	.brothers-section .image_container{
-		height: 280px;
-	}
-}
-
-
-@media screen  and (max-width:900px)  { 
-
-
-	.brothers-section .card{
-		width:50%;
-		margin-right:0rem;
-	}
-}
-
- /* reduce text size of title and make img height increase*/
-@media screen  and (max-width:650px)  { 
-	header #page_title{
-		font-size: 1rem;
-	}
-	
-	.brother-title{
-		min-height:0px;
-        color:black
-	}
-
-    .brothers-section .image_container{
-        height:auto;
-    }
-
-	.brothers-section .card{
-		width:100%;
-		margin-right:0rem;
-		margin-bottom:1rem;
-	}
-	
-	#menu {
-		font-size: 1rem;
-	   
-
-    }
-
-    @media screen  and (min-width:260px) and (max-width:400px) {
-        .unordered-list i {
-            font-size: 200%;
-            margin: 1%;
-            padding: 5%;
-        }
-    }
-
-
-    @media screen  and (min-width:200px) and (max-width:260px) {
-        .unordered-list i {
-            font-size: 150%;
-            margin: 1%;
-            padding: 5%;
-        }
-    }
-
-}
-
-
-/* @media responsiveness ends*/
+		<div class="content">
+			<!--section castle-->
+           <div class="castle-outer">
+	 <section>
+        <h2 class="brother-title"> Welcome</h2>
+        <p class="paragraph-bg">This website is targeted for people with interest in swedish history primarly about the royalties off the past
+            and will and can summarise marginable good amount of intel about the historical people.</p>
+        <div class="image_container t-center">
+          <img src="https://cdn.discordapp.com/attachments/944724273677893702/1009950455033495703/640px-Orebro_Slott_Orebro_Castle_Sweden.jpg"
+           alt="image of Orebro castle">
+        </div>
+    </section>
+           </div> 
+    <!-- section-brothers --> 
+    <section id="brothers-section" class="brothers-section flex-container flex-row"> 
+        <h2 class="section-title">Introduction to the brothers</h2> 
+        <div class="card">
+            <h3 class="brother-title">Erik XIV king of Sweden (1560-1568 Reign)</h3>
+            <div class="image_container">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Erik_XIV%2C_1533-1577%2C_king_of_Sweden_%28Steven_van_der_Meulen%29_-_Nationalmuseum_-_38906.tif/lossy-page1-640px-Erik_XIV%2C_1533-1577%2C_king_of_Sweden_%28Steven_van_der_Meulen%29_-_Nationalmuseum_-_38906.tif.jpg" 
+                alt="image of erik XIV">
+            </div>
+            <p class="paragraph-bg" >Eric XIV (born 13 december 1533 and died 26 februari 1577) 
+                was King of Sweden from 1560 until he was deposed in 1569 by his brothers John III and Charles IX.
+                Eric XIV was the eldest son of King Gustav Vasa of Sweden and Catherine of Saxe-Lauenburg, 
+                while he was regarded as intelligent and artistically skilled as well politically ambitious. 
+                Early in his reign he showed signs of mental instability, a condition that eventually led to insanity.
+                Eric having deposed and imprisoned, was most likely murdered. An examination of his remains in 1958 confirmed that he probaly died of arsenic poisoning.
+            </p>
+        </div>
+        <div class="card">
+            <h3 class="brother-title">John III King of Sweden (1569-1592 Reign)</h3>
+            <div class="image_container">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Johan_III.jpg/640px-Johan_III.jpg" alt="image of John III">
+            </div>
+            <p class="paragraph-bg" >John III (born 20 december 1537 and died 17 november 1592) was King of Sweden from 1569 untill his death at 1592.
+                He was the second son of King Gustav Vasa of Sweden and Margaret Leijonhufvud. He was also the autonomously, 
+                the ruler of Finland as duke from 1556 to 1563 in 1581 he assumed also the title Grand Prince of Finland.
+                He attained the Swedish throne after a rebellion agaisnt his half-brother Eric XIV, 
+                he is mainly remembered for his attempts to close the gap between the newly established lutheran church of Sweden and the Catholic church.
+                As well as his conflict with and murder of his brother Eric XIV. 
+                His son Sigismund eventually ascended both the Polish-lithuanian and Swedish thrones
+                 as John III first wife Catherine Jagellonica of the polish-lithuanian ruling family.
+            </p>
+        </div>
+        <div class="card">
+            <h3 class="brother-title"> Prince Magnus Duke of Ostergotland</h3>
+            <div class="image_container">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Magnus_of_Sweden_%281542%29_c_1580.jpg/640px-Magnus_of_Sweden_%281542%29_c_1580.jpg" alt="images of Magnus duke of ostrogothia">
+            </div>
+            <p class="paragraph-bg">Magnus Vasa (born 25 july 1542 and died 26 June 1595) prince of Sweden, Magnus became the duke of Ostrogothia in 1555. 
+                And many other holds like Kinda and Ydre, Dalsland, Sundbo härad in Närke, Kåkind, Valla and the major part of Vadsbo härad in Västergötland.
+                As Duke of Ostrogothia he lived permanently at Vadstena Castle in Vadstena. 
+                Magnus was the only sons of Gustav Vasa who didnt become the king of Sweden if we discount his other brothers Karl and Sten who died in infancy.
+                Magnus suffered from a mental illness, the illness showed it first signs in 1563 and eventually became permanent in 1574, 
+                which the responsibility of his fiefs were taken over by his brother John III who managed them as his guardian because of his mental condition.
+                And on the side note John III granted a small part of his fiefsdowm was to his brother Charles IX.
+            </p>
+        </div>
+        <div class="card">
+            <h3 class="brother-title"> King Charles IX of Sweden (1604-1611 Reign)</h3>
+            <div class="image_container">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Karl_IX%2C_1550-1611%2C_konung_av_Sverige_-_Nationalmuseum_-_15072.tif/lossy-page1-640px-Karl_IX%2C_1550-1611%2C_konung_av_Sverige_-_Nationalmuseum_-_15072.tif.jpg" alt="image of charles IX king of sweden">
+        </div>
+            <p class="paragraph-bg">Charles IX (born 4 october and died 30 october 1611)
+                 was king till his death tough the story on how he became king and his conflict with his brothers and nephew will be relayed further down.
+                Charles IX was youngest son and child of Gustav Vasa and Maria Elisabet. he was king of Sweden, head of the nation and de factor regent already in 1599-1604.  
+                When Charles IX passed away Sweden was in war on three fronts at the same time with Swedens neighbors Danmark-Norway, Poland and Russia.</p>
+        </div>
+    </section>
+    <!--events-section-->
+    <section id="events-section" class="events-conclusion"> 
+        <h2 class="section-title">Events and conclusion</h2>
+        <div class="card">
+            <h3> The overthrow off Erik XIV</h3>
+            <p class="paragraph-bg"> <br> 
+                The struggles and conflicts betweens the brothers was an boiling point that was always growing and even the best effort of Gustav Vasa, 
+                their father couldnt steem it or rid it from theirs future with each others. 
+                Gustav Vasa last attempt before his passing to hinder infighting betweens the brothers by giving them their own fiefsdom and territory as mention, 
+                to them to dispears any desire and wants to overthrow Erik off the throne. 
+                The plan work at the begining when the brothers where on equal footing but when the old king of Sweden passed, 
+                the expectations and worries became reality the civil infighting and brothely fueds would boil over. 
+                When Erik ascended to the throne then he started any means to obstructs any challenge from his brothers mainly Johan III. <br/>
+                The Conflicts between the brothers became more intensified 
+                and the breaking point came when 1563 Eriks soldiers besieged Åbo castle and imprisioned John and his wife Katarina Jagellonica and their followers as prisoners. 
+                4 years of imprisonment in Gripsholms the couple gav birth to two children Isabella who would died in the time and their son Sigismund. 
+            </p>
+            <p class="paragraph-bg"> And at 1567 the couple got released and the conflict hardend as Johan with his brother Charles started an open rebelion
+                 with support from the nobles. 
+                After an short but bloody civil war Erik XIV got overthrown by his brothers. 
+                Erik would be thrown into jail with his own family as he did to Johan III,
+                 in Eriks diaries it read he lived in anxiety and terror after they seperated Erik from his family.
+                 The conflict between the brothers Erik and Johan did not end till a day in febuari year 1577 was the day Erik died and later on it was discovered Erik died 
+                 by an stedy amount of arsenic poisoning.
+            </p>
+        </div>
+        <div class="card">
+            <h3>Rise of Charles IX and conflict between John III</h3>
+            <p class="paragraph-bg"> <br> The first years after they overthrown Erik XIV was the relationship between Charles IX and John III relativly good,
+                 but it would deterioate as Charles IX political power rouse and John overly sensitivness when Charles keep trying to increase his power. <br>
+                The breaking point would be at 1585 when Charles refused attend to Johns wedding day with his second wife Gunilla Bielke. <br>
+                There continued to be worries about another uprising and civil war of these brothes in the court as there where no further compromises from either side. <br>
+                As their relationship deterioated with their disagreements of changing Swedens church branch they did consolidate to help each other agaisnt Erik Sparre, 
+                Hogenskild Bielke and other high nobles. <br>
+                But when Johan III passed away 1592 had Charles IX started monopolising political power in Sweden and with stepful climb trough removing polish and chatolic 
+                influnce trough Johan III son Sigismund who was both king of Sweden and Poland. <br>
+                and at 1595-1597 did Charles succeed in overthrowing Sigismund off the Swedish throne.  
+            </p>	
+        </div>
+    </section>
+    <!--footer-->
+    <footer id="social-media">
+        <ul class="unordered-list">
+            <li>
+                <a href="https://www.facebook.com/" target="_blank" rel="noopener"
+                aria-label="visit our facebook page (opens in new tab)"> <i class="fa-brands fa-facebook"></i></a>
+            </li>
+            <li>
+                <a href="https://www.twitter.com/" target="_blank" rel="noopener"
+                aria-label="visit our twitter page (opens in new tab)"> <i class="fa-brands fa-square-twitter"></i></a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/" target="_blank" rel="noopener"
+                aria-label="visit our instagram page (opens in new tab)"> <i class="fa-brands fa-instagram"></i></a>
+            </li>
+            <li>
+                <a href="https://www.youtube.com/" target="_blank" rel="noopener"
+                aria-label="visit our youtube page (opens in new tab)"><i class="fa-brands fa-youtube"></i></a>
+            </li>
+        </ul>
+      </footer>
+    </div>
+</div>
+<a class="button_top" href="#"><i class="fa-solid fa-arrow-up"></i></a>
+</body>
+</html>
