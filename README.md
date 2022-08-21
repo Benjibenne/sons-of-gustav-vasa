@@ -155,12 +155,23 @@ These test where done from -
 ### Testing bugs
 
 - Got erros in html validator when I didnt have enough headers in one section.
+
 - And got erros of there where unclosed tags in the body.
+
+- made an error of copy pasting over my index.html body my style.css file so my whole live website was gone and it was committed.
+  So when I tried to find solutions on finding my old commit to get it back and messed around and accidently created two branches so after I found my old index.html.
+  Which led me not aviable to commit my new changes which later in panic I deleted wrong branch which made things not optimal to commit and couldnt push my changes.
 
 ### fixing bugs 
 
 - Fixed section bugs with adding a header with title Welcome and text with content of this website.
+
 - Fixed last and other following bugs with deleting shown stray tags with no closing tag.
+
+- With help from my mentor Harry I was able to fix this bug by clicking gitpod in github to create new workspace and delete the new one and. 
+
+- main take away from last bug dont play around with what you dont know what you doing.
+
 
 ## Deployment:
 The site was deployed to GitHub pages.
